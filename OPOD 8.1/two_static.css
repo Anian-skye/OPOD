@@ -1,0 +1,64 @@
+h4{
+    text-align: center;
+}
+
+.container .left{
+    height:100px;
+    background-color: bisque;
+}
+.container .right{
+    height:100px;
+    background-color: darkseagreen;
+}
+
+
+/*浮动方式 */
+
+#floatLeft{
+    float: left;
+    width:30%;
+}
+#floatRight{
+    float:left;
+    width:70%;
+}
+
+/*定位方式*/
+
+#absoContainer{
+    position: relative;
+}
+
+
+#absoLeft{
+    position: absolute;
+    top:0;
+    left:0;
+    width:30%;
+}
+
+#absoRight{
+    margin-left:30%;
+    width:70%;
+}
+
+/*flex方式*/
+
+
+#flexContainer{
+    display:flex;
+}
+
+#flexLeft{
+    flex:1;
+}
+#flexRight{
+    flex: 2.3;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+
+body{
+    padding:0;
+    margin:0;
+}
+
+div.navDiv{
+    background-color: #333333;
+    width:100%;
+}
+
+nav{
+    width:960px;
+    position:relative;
+    margin:0 auto;
+}
+
+
+#logo{
+    width:50px;
+}
+
+nav .links{
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right:0;
+}
+
+nav .links a{
+    color:white;
+    font-size:10px;
+}
+
+div.slide div.item{
+    height:400px;
+}
+
+
+div.mainGuide{
+    margin-top:20px;
+}
+div.guideLinks{
+    width:960px;
+    margin:0 auto;
+    z-index: -1;
+}
+
+#tab_nav{
+    margin-bottom:0px;
+}
+
+div.guideLinks a{
+    display: inline-block;
+    width:118px;
+    height:50px;
+    background-color: #eeeeee;
+    border-radius: 15px 15px 0 0;
+    padding:15px 35px;
+    margin-right:-4px;
+    border:1px solid lightgrey;
+    border-bottom: 1px solid transparent;
+    color:darkgrey;
+    text-decoration: none;
+}
+
+
+div.guideLinks a.selected{
+    background-color: white;
+    border-bottom:1px solid white;
+}
+
+div.guideLinks a:hover{
+    background-color: white;
+    border-bottom:1px solid white;
+    cursor: pointer;
+}
+
+div.line{
+    height:1px;
+    background-color: lightgrey;
+    z-index: 1;
+}
+
+.contentItem{
+    height:175px;
+    width:960px;
+    margin:10px auto;
+    display:flex;
+}
+
+#HOME .contentItem div{
+    border:1px solid lightgrey;
+    height:175px;
+    flex:1;
+}
+
+#firstItem2 #thirdItem2,#secondItem2,#secondItem3{
+    margin:0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

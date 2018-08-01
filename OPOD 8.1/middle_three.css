@@ -1,0 +1,112 @@
+body{
+    min-width: 600px;
+}
+
+
+
+h4{
+    text-align: center;
+}
+
+
+.container .left , .container .right{
+    height:200px;
+    width:100px;
+    background-color: lightskyblue;
+}
+
+
+.container .middle{
+    height:200px;
+    background-color: darkseagreen;
+}
+
+/*绝对定位*/
+
+#absoContainer{
+    position:relative;
+ }
+
+#absoLeft{
+    position: absolute;
+    top:0;
+    left:0;
+}
+#absoRight{
+    position: absolute;
+    top:0;
+    right:0;
+}
+#absoMiddle{
+    margin:0 100px 0 100px;
+}
+
+
+/*浮动定位*/
+
+#floatLeft{
+    float: left;
+}
+
+#floatRight{
+    float:right;
+}
+
+
+
+/*圣杯*/
+
+
+#gloryContainer{
+    overflow: hidden;
+    padding:0 100px 0 100px;
+}
+
+#gloryLeft{
+    float: left;
+    margin-left:-100%;
+    position: relative;
+    right:100px;
+}
+
+#gloryRight{
+    float: left;
+    margin-left:-100px;
+    position: relative;
+    left:100px;
+}
+
+#gloryMiddle{
+    float:left;
+    width:100%;
+}
+
+
+/*双飞翼*/
+
+
+#flyContainer{
+    overflow: hidden;
+}
+
+#flyLeft{
+    float: left;
+    margin-left:-100%;
+
+}
+
+#flyRight{
+    float: left;
+    margin-left:-100px;
+}
+
+#flyMiddle{
+    float:left;
+    width:100%;
+    box-sizing: border-box;
+    padding:0 100px 0 100px;
+
+}
+
+
+

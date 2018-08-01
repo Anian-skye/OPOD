@@ -1,0 +1,64 @@
+body{
+    min-width: 600px;
+}
+
+h4{
+    text-align: center;
+}
+
+.container .left,.container .middle{
+    height:200px;
+    width:100px;
+}
+
+.container .left{
+    background-color: indianred;
+}
+
+.container .middle{
+    background-color: aquamarine;
+}
+
+.container .right{
+    height:200px;
+    background-color: bisque;
+    width:100%;
+}
+
+
+/* 浮动方法*/
+
+#floatLeft{
+    float:left;
+}
+
+#floatMiddle{
+    float: left;
+}
+
+
+
+/* flex布局*/
+
+
+#flexContainer{
+    display: flex;
+    align-items: flex-start;
+}
+
+#flexLeft{
+    flex:0 0 auto;
+}
+
+#flexMiddle{
+    flex:0 0 auto;
+}
+
+#flexRight{
+    flex:1 1 auto;
+}
+
+
+
+
+
